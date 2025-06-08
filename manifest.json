@@ -8,7 +8,7 @@
   "catalogs": [
     {
       "type": "tv",
-      "id": "iptv-channels-BR",
+      "id": "org.iptv.catalog.br",
       "name": "IPTV - BR",
       "extra": [
         {
@@ -48,8 +48,11 @@
       ]
     }
   ],
-  "idPrefixes": ["iptv-"],
-  "behaviorHints": { "configurable": false, "configurationRequired": false },
+  "idPrefixes": ["org.iptv"],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  },
   "logo": "https://dl.strem.io/addon-logo.png",
   "icon": "https://dl.strem.io/addon-logo.png",
   "background": "https://dl.strem.io/addon-background.jpg"
