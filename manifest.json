@@ -1,0 +1,56 @@
+{
+  "id": "org.iptv",
+  "name": "IPTV Addon",
+  "version": "0.0.3",
+  "description": "Watch live TV from BR",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["tv"],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "iptv-channels-BR",
+      "name": "IPTV - BR",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "animation",
+            "business",
+            "classic",
+            "comedy",
+            "cooking",
+            "culture",
+            "documentary",
+            "education",
+            "entertainment",
+            "family",
+            "kids",
+            "legislative",
+            "lifestyle",
+            "movies",
+            "music",
+            "general",
+            "religious",
+            "news",
+            "outdoor",
+            "relax",
+            "series",
+            "science",
+            "shop",
+            "sports",
+            "travel",
+            "weather",
+            "xxx",
+            "auto"
+          ]
+        }
+      ]
+    }
+  ],
+  "idPrefixes": ["iptv-"],
+  "behaviorHints": { "configurable": false, "configurationRequired": false },
+  "logo": "https://dl.strem.io/addon-logo.png",
+  "icon": "https://dl.strem.io/addon-logo.png",
+  "background": "https://dl.strem.io/addon-background.jpg"
+}
